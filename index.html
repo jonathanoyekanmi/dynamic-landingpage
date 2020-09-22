@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Landing Page</title>
+</head>
+<body onload="randomBg()">
+    <div class="container">
+        <nav class="link">
+            <ul>
+                <li><a href="">Link</a></li>
+                <li><a href=""><i class="fas fa-search"></i></a></li>
+            </ul>
+            <ul>
+                <li><a href=""><i class="fas fa-cloud-sun fa-2x" id="weather"></i></a></li>
+            </ul>
+        </nav>
+        <div class="welcomeText">
+            <h1 id="time">  </h1>
+            <h2>
+                <span id="greeting"></span>
+                <span id="name" contenteditable="true"></span>
+            </h2>
+            <p id="textContent">What is your goal for today?</p>
+            <span id="focus" contenteditable="true"></span>
+        </div>
+        <footer>
+            <span id="random_quote"></span>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

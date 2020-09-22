@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #333;
+    color: whitesmoke;
+    font-family: lato;
+    overflow: hidden;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.73)), url('imgs/bg1.jpg') no-repeat center/cover;
+}
+
+.link {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin: 10px 0;
+}
+
+ul li {
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.welcomeText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 6em;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 3.5em;
+    font-weight: 500;   
+}
+
+p {
+    font-size: 2em;
+    font-weight: 400;
+    margin-top: 40px;
+}
+
+#focus  {
+    margin-top: 20px;
+    border-bottom: 2px solid whitesmoke;
+    width: 25%;
+    padding: 10px;
+    outline: none;
+}
+
+#name {
+    outline: none;
+    border: none;
+}
+
+#random_quote {
+    text-align: center;;
+}
+
+
+footer span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
