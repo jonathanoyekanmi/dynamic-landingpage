@@ -89,3 +89,56 @@ footer span {
     align-items: center;
     justify-content: center;
 }
+
+/* Media Queries */
+
+@media (max-width: 780px) {
+    #focus  {
+    width: 70%;
+   
+}
+
+}
+
+@media (max-width: 500px) {
+    h1 {
+    font-size: 4em;
+    }
+
+    h2 {
+    font-size: 2em;   
+    }
+
+    p {
+        font-size: 2em;
+    }
+
+    #focus  {
+    width: 70%;
+   }
+
+   #random_quote {
+    margin-top: -50px;
+    padding: 0 30px;
+    }
+}
+
+@media (max-width: 400px) {
+    h1 {
+    font-size: 3em;
+    }
+
+    h2 {
+    font-size: 1.5em;   
+    }
+
+    p {
+        font-size: 1.6em;
+    }
+
+   #random_quote {
+    margin-top: -70px;
+    padding: 0 30px;
+    }
+
+}
